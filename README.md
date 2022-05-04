@@ -63,12 +63,12 @@
 
       nano /root/tomcat/webapps/manager/META-INF/context.xml
 
-- this change only comment line " <!-- <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+- change this line to comment line " <!-- <Valve className="org.apache.catalina.valves.RemoteAddrValve"
          allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> -->   "
 
       nano /root/tomcat/webapps/host-manager/META-INF/context.xml
 
-this change only comment line " <!-- <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+change this line to comment line " <!-- <Valve className="org.apache.catalina.valves.RemoteAddrValve"
          allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> -->   "
 
      ./shutdown.sh  
